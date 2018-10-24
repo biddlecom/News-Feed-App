@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">v3 News App Biddlecom</string>
+    <string name="no_data">Sorry, there is no information to display.\n=(\n\nTry closing the app.\nSwipe
+        it out the recents screen\nand then try re-opening it again.</string>
+    <string name="hold_on">Hold on\&#8230; Our carrier pigeons are fetching\nyour stories as quickly as they can.</string>
+    <string name="no_internet">No internet connection detected.\nPlease check your settings and try again.</string>
+    <string name="story_title">Story Title</string>
+    <string name="author">Author</string>
+    <string name="date">Date</string>
+    <string name="in_section">In Section</string>
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">News App Settings</string>
+
+    <!-- Strings for the NUMBER OF STORIES (to display) Preference [CHAR LIMIT=30] -->
+    <string name="settings_number_of_stories_label">Number of Stories (200 max)</string>
+    <string name="settings_number_of_stories_key" translatable="false">page-size</string>
+    <string name="settings_number_of_stories_default">50</string>
+
+    <!-- Strings for the ORDER BY Preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order-by</string>
+    <string name="settings_order_by_default">newest</string>
+
+    <!-- Label for ORDER BY NEWEST option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+
+    <!-- Label for ORDER BY OLDEST option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+
+    <!-- Strings for the SORT BY FROM DATE Preference [CHAR LIMIT=30] -->
+    <string name="settings_sort_by_from_date_label">From Date (EX. 2018&#8211;01&#8211;30)</string>
+    <string name="settings_sort_by_from_date_key" translatable="false">from-date</string>
+    <string name="settings_sort_by_from_date_default">2018-01-30</string>
+
+    <!-- Strings for the SORT BY TO DATE Preference [CHAR LIMIT=30] -->
+    <string name="settings_sort_by_to_date_label">To Date (EX. 2018&#8211;05&#8211;25)</string>
+    <string name="settings_sort_by_to_date_key" translatable="false">to-date</string>
+    <string name="settings_sort_by_to_date_default">2025-12-31</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dim_16_dp_margin">16dp</dimen>
+    <dimen name="dim_8_dp_margin">8dp</dimen>
+    <dimen name="dim_4_dp_margin">4dp</dimen>
+    <dimen name="dim_2_dp_margin">2dp</dimen>
+    <dimen name="dim_0_dp_margin">0dp</dimen>
+</resources>

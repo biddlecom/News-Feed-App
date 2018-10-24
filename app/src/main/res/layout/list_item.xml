@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/backgroundColor"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dim_4_dp_margin"
+        android:layout_marginEnd="@dimen/dim_8_dp_margin"
+        android:layout_marginLeft="@dimen/dim_8_dp_margin"
+        android:layout_marginRight="@dimen/dim_8_dp_margin"
+        android:layout_marginStart="@dimen/dim_8_dp_margin"
+        android:layout_marginTop="@dimen/dim_8_dp_margin"
+        card_view:cardBackgroundColor="@color/backgroundColor"
+        card_view:cardCornerRadius="@dimen/dim_4_dp_margin"
+        card_view:cardElevation="@dimen/dim_4_dp_margin">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/story_title_text_view"
+                style="@style/StoryTitleStyle"
+                android:layout_marginTop="@dimen/dim_4_dp_margin" />
+
+            <TextView
+                android:id="@+id/author_name_text_view"
+                style="@style/StorySupplementalInfoStyle"
+                android:layout_below="@id/story_title_text_view"
+                android:text="@string/author" />
+
+            <TextView
+                android:id="@+id/date_text_view"
+                style="@style/StorySupplementalInfoStyle"
+                android:layout_below="@id/author_name_text_view"
+                android:maxLength="10"
+                android:text="@string/date" />
+
+            <TextView
+                android:id="@+id/in_section_text_view"
+                style="@style/StorySupplementalInfoStyle"
+                android:layout_below="@id/date_text_view"
+                android:layout_marginBottom="@dimen/dim_4_dp_margin"
+                android:text="@string/in_section" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

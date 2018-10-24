@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Style for the EMPTY ACTIVITY (activity_main.xml, TextView ID: no_data_to_display_text_view) -->
+    <style name="EmptyActivityStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_above">@id/progress_circle</item>
+        <item name="android:layout_marginBottom">@dimen/dim_8_dp_margin</item>
+        <item name="android:text">@string/no_data</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/fontColor</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium</item>
+    </style>
+
+    <!-- Style for the STORY TITLE in the list view (list_item.xml, TextView ID: story_title_text_view) -->
+    <style name="StoryTitleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/story_title</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">@dimen/dim_8_dp_margin</item>
+        <item name="android:layout_marginStart">@dimen/dim_8_dp_margin</item>
+        <item name="android:layout_marginRight">@dimen/dim_8_dp_margin</item>
+        <item name="android:layout_marginEnd">@dimen/dim_8_dp_margin</item>
+        <item name="android:textColor">@color/fontColor</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <!-- Style for the STORY SUPPLEMENTAL INFO in the list view (list_item.xml, TextView IDs:
+    author_text_view, date_text_view, in_section_text_view) -->
+    <style name="StorySupplementalInfoStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/dim_8_dp_margin</item>
+        <item name="android:layout_marginStart">@dimen/dim_8_dp_margin</item>
+        <item name="android:layout_marginRight">@dimen/dim_8_dp_margin</item>
+        <item name="android:layout_marginEnd">@dimen/dim_8_dp_margin</item>
+        <item name="android:textColor">@color/fontColor</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Small</item>
+    </style>
+
+</resources>
