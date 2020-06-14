@@ -20,7 +20,7 @@ When a user clicks on an article they will be taken to TheGuardian.com website w
 
 ### Screenshots
 
-<img src="https://github.com/biddlecom/News-Feed-App/blob/master/Screenshot_1_350.png"> &nbsp; &nbsp; <img src="https://github.com/biddlecom/News-Feed-App/blob/master/Screenshot_2_350.png">
+<img src="https://github.com/biddlecom/News-Feed-App/blob/master/Screenshot_1_350.png"> &nbsp; &nbsp; <img src="https://github.com/biddlecom/News-Feed-App/blob/master/Screenshot_2_350a.png">
 
 <img src="https://github.com/biddlecom/News-Feed-App/blob/master/Screenshot_3_350.png"> &nbsp; &nbsp; <img src="https://github.com/biddlecom/News-Feed-App/blob/master/Screenshot_4_350.png">
 
